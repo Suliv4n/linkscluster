@@ -147,4 +147,12 @@ public class LinksCluster {
 		
 		return false;
 	}
+
+	public int linksCount() {
+		return element.select("a").size();
+	}
+
+	public int nodesCount() {
+		return element.select("*").size();
+	}
 }

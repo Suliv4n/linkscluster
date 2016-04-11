@@ -125,4 +125,10 @@ public class LinksClusterDetector {
 		return linksClusters;
 	}
 	
+	/*
+	public boolean matchesUri(LinksClusterDetector other){
+		return other.url.getPath().equals(this.url.getPath());
+	}
+	*/
+	
 }
